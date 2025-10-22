@@ -1,10 +1,10 @@
 
-import img1 from './image1.svg'
-import img2 from './image2.svg'
-import img3 from './image3.svg'
-import img4 from './image4.svg'
-import img5 from './image5.svg'
-import img6 from './image6.svg'
+import img1 from './Image1.svg'
+import img2 from './Image2.svg'
+import img3 from './Image3.svg'
+import img4 from './Image4.svg'
+import img5 from './Image5.svg'
+import img6 from './Image6.svg'
 
 import authImg1 from './AuthorImages.svg'
 import authImg2 from './AuthorImages1.svg'
