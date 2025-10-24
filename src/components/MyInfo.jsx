@@ -10,7 +10,7 @@ const MyInfo = () => {
     className='px-7.5 py-30 bg-[#F9E6F0] md:px-80 md:py-30 md:flex md:flex-col md:items-center'>
       <div className='flex flex-col items-start gap-19.5 md:flex-row md:items-center md:w-[780px]'>
         <div className='w-[195px] flex flex-col gap-5 md:w-full'>
-            <img className='h-[195px] w-[195px]' src="/portImage.svg" alt="" />
+            <img className='h-[195px] w-[195px] border-4 border-black' src="/ProfilePic.svg" alt="" />
             <div className='w-[195px] flex flex-col leading-6.75'>
                 <p className='font-bold text-[17px]'>Shirish Thore</p>
                 <p className='text-[17px]'>Full-Stack Developer (MERN Stack)</p>
