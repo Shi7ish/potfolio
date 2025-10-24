@@ -33,7 +33,7 @@ const ContactMe = () => {
             <h2 className='font-bold'>My CV/Resume :</h2>
             <div className='flex flex-col gap-2'>
               <p>Click below to download my CV/Resume</p>
-              <a href="ShirishThoreResume.pdf" download="ShirishThoreResume.pdf">
+              <a href="Updated Resume.pdf" download="Updated Resume.pdf">
                 <button className='px-6 w-fit py-2 hover:bg-black hover:text-white text-cente transition-all ease-in-out border-2 border-black'>Click Me</button>
               </a>
             </div>
