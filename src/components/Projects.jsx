@@ -17,7 +17,10 @@ const Projects = () => {
                     {
                         project.map((item, index) => (
                             <div key={index} className='flex flex-col items-center text-center gap-[25px] '>
-                                <img src={item.img} alt="" />
+                                <img onClick={()=>window.open(
+                                    item.link,
+                                    "_blank"
+                                )} src={item.img} alt="" className='cursor-pointer' />
                                 <div>
                                     <p className='font-semibold text-[20px]'>{item.title}</p>
                                 </div>
