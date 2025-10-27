@@ -23,7 +23,7 @@ const Email = () => {
 
     try {
       // NOTE: The URL must match your Express server's address and route.
-      const response = await axios.post('http://localhost:5000/api/contact', formData);
+      const response = await axios.post('https://portfolio2-0-nine-eta.vercel.app/api/contact', formData);
 
       setStatus('Success! ' + response.data.message);
       // Clear the form fields on success
