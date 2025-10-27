@@ -66,7 +66,7 @@ const Email = () => {
                 <input onChange={handleChange} value={formData.customerEmail} name='customerEmail' type="text" placeholder='Email' className='w-full py-[21px] px-7.5 bg-[#F3F3F3] placeholder:text-[#2D2D2D] items-start md:w-[530px]' />
                 <textarea onChange={handleChange} value={formData.messageBody} name="messageBody" id="" placeholder='Type your message here' className='w-full py-[21px] px-7.5 bg-[#F3F3F3] placeholder:text-[#2D2D2D] h-58 items-start md:w-[530px] '></textarea>
               </div>
-              <button className='px-20.5 py-6.25 bg-[#2D2D2D] text-[#FFFFFF] gap-2.5 w-58' type='submit'>Submit</button>
+              <button onClick={()=>toast.success('Wait till you see the success message')} className='px-20.5 py-6.25 bg-[#2D2D2D] text-[#FFFFFF] gap-2.5 w-58 cursor-pointer' type='submit'>Submit</button>
             </form>
           </div>
         </div>
