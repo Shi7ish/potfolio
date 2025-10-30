@@ -48,15 +48,27 @@ const Logos = () => {
                     className='px-16.5'>
                     <div className='flex flex-col py-15 gap-15 justify-center items-center border-y-2 border-[#000000]/20 md:flex-row '>
                         <div className='flex flex-row justify-center items-center gap-20 h-15'>
-                            <img className='h-15' src="/linkedin.svg" alt="" />
+                            <img onClick={()=>window.open(
+                                "https://www.linkedin.com/in/shirishthore/",
+                                "_blank"
+                            )} className='h-15' src="/linkedin.svg" alt="" />
                             <img onClick={handleGmailClick} src="/email.svg" alt="" />
                         </div>
                         <div className='flex flex-row justify-center items-center gap-5 h-10'>
-                            <img src="/Dribbble.svg" alt="" />
-                            <img className='h-20' src="/github.svg" alt="" />
+                            <img onClick={()=>window.open(
+                                "https://dribbble.com/shirish-thore",
+                                "_blank"
+                            )} src="/Dribbble.svg" alt="" />
+                            <img onClick={()=>window.open(
+                                "https://github.com/Shi7ish",
+                                "_blank"
+                            )} className='h-20' src="/github.svg" alt="" />
                         </div>
                         <div className='flex flex-row justify-center h-10'>
-                            <img src="/vercel.svg" alt="" />
+                            <img onClick={() => window.open(
+                                "https://vercel.com/shirish-thores-projects",
+                                "_blank"
+                            )} src="/vercel.svg" alt="" />
                         </div>
                     </div>
                 </motion.div>)
@@ -73,7 +85,7 @@ const Logos = () => {
                                 "_blank"
                             )} src="/github.svg" alt="github" className="h-20 cursor-pointer" />
                             <img onClick={() => window.open(
-                                "https://www.linkedin.com/in/shirish-thore-831a1b303/",
+                                "https://www.linkedin.com/in/shirishthore/",
                                 "_blank"
                             )} src="/linkedin.svg" alt="linkedin" className="h-20 cursor-pointer" />
                             <img onClick={() => window.open(
