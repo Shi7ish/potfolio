@@ -1,4 +1,4 @@
-import React,{useRef} from 'react'
+import React, { useRef } from 'react'
 import { CustomerFeedback } from '../assets/assets'
 import { motion, useInView } from 'framer-motion';
 
@@ -8,11 +8,11 @@ const FeedBack = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   return (
     <div ref={ref}>
-      <motion.div 
-      initial={{ opacity: 0, y: 100 }}
-      animate={isInView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.8, ease: "easeOut" }}
-      className='px-7.5 pt-15 pb-22.5 gap-2.5 md:px-25 md:pt-25 md:pb-37.5'>
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        animate={isInView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        className='px-7.5 pt-15 pb-22.5 gap-2.5 md:px-25 md:pt-25 md:pb-37.5'>
         <div className='flex flex-col text-center items-center gap-10 '>
           <p className='font-semibold text-3xl'>Clients</p>
           <div className='flex flex-col gap-10 md:grid md:grid-cols-3 justify-around text-start '>
