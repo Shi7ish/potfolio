@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
-import { motion, useInView } from 'framer-motion';
+    import { motion, useInView } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
 const Logos = () => {
@@ -42,9 +42,9 @@ const Logos = () => {
         >
             {isMobile ?
                 (<motion.div
-                    initial={{ opacity: 0, y: 100 }}
-                    animate={isInView ? { opacity: 1, y: 0 } : {}}
-                    transition={{ duration: 0.8, ease: "easeOut" }}
+                        initial={{ opacity: 0, y: 100 }}
+                        animate={isInView ? { opacity: 1, y: 0 } : {}}
+                        transition={{ duration: 0.8, ease: "easeOut" }}
                     className='px-16.5'>
                     <div className='flex flex-col py-15 gap-15 justify-center items-center border-y-2 border-[#000000]/20 md:flex-row '>
                         <div className='flex flex-row justify-center items-center gap-20 h-15'>
